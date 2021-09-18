@@ -248,3 +248,36 @@
     margin: 0px 8px;
   }
 }
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/shutterstock_641609476.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  color: white;
+}
+.contact h3 {
+  text-align: center;
+  padding: 100px;
+}
+.fas,
+.fab,
+.far {
+  font-size: 50px;
+  margin: 15px 70px;
+}
+.icons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+@media (max-width: 700px) {
+  .icons {
+    flex-direction: column;
+  }
+  .contact {
+    height: 100%;
+  }
+}
